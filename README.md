@@ -34,4 +34,4 @@ The `{train,valid,test}_cmd_corpus.csv` are command-based (note_on, note_off, sh
 Similarly, `{train,valid,test}_pr_corpus.csv` are piano-roll-based versions of the acme data more convenient for our provided pytorch Dataset classes avaialble in the [Midi Degradation ToolKit package](https://github.com/JamesOwers/midi_degradation_toolkit).
 
 ### Reproducibility
-To reproduce this dataset again, install the [Midi Degradation ToolKit package version 1.1](https://github.com/JamesOwers/midi_degradation_toolkit/releases/tag/v1.1) and run `./make_dataset --seed 208724510`
+To reproduce this dataset again, install the [Midi Degradation ToolKit package version 1.1](https://github.com/JamesOwers/midi_degradation_toolkit/releases/tag/v1.1) and run `./make_dataset.py --seed 208724510`
